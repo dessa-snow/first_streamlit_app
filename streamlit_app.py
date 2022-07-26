@@ -27,6 +27,6 @@ st.dataframe(fruits_to_show)
 # st.text(fruityvice_response.json())
 
 st.subheader("Fruityvice Fruit Advice!")
-fruityvice_normalized = pandas.json_normalize(fruityvice_response.json())
+fruityvice_normalized = pd.json_normalize(fruityvice_response.json())
 st.dataframe(fruityvice_normalized)
 
