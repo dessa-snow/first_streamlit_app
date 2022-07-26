@@ -12,7 +12,7 @@ st.caption(":avocado: Avocado Toast")
 st.subheader(":banana: :grapes: Build Your Own Fruit Smoothie :watermelon: :strawberry:")
 
 my_fruit_list = pd.read_csv("https://uni-lab-files.s3.us-west-2.amazonaws.com/dabw/fruit_macros.txt")
-mu_fruit_list = my_fruit_list.set_index("Fruit")
+my_fruit_list = my_fruit_list.set_index("Fruit")
 st.multiselect("Pick some fruits: ", list(my_fruit_list.index))
 
 st.dataframe(my_fruit_list)
