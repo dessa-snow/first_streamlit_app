@@ -8,4 +8,4 @@ st.caption(":green_salad: Kale, Spinach & Rocket Smoothie")
 st.caption(":egg: Hard-boiled Free-Range Egg")
 st.caption(":avocado: Avocado Toast")
 
-st.subheader(":banana: :grapes: Build Your Own Fruit Smoothie :kiwi_fruit: :strawberry:")
+st.subheader(":banana: :grapes: Build Your Own Fruit Smoothie :watermelon: :strawberry:")
