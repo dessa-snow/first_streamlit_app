@@ -46,7 +46,7 @@ except URLError as e:
   st.error()
 
 # do not run anything past here
-st.stop()
+# st.stop()
 
 # my_cur.execute("SELECT CURRENT_USER(), CURRENT_ACCOUNT(), CURRENT_REGION()")
 # my_data_row = my_cur.fetchone()
