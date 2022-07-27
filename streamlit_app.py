@@ -43,5 +43,11 @@ my_cur.execute("select * from fruit_load_list")
 # my_data_row = my_cur.fetchone()
 my_data_rows = my_cur.fetchall()
 # st.text("Hello from Snowflake:")
-st.header("The fruit load list contains:")
+st.subheader("The fruit load list contains:")
 st.dataframe(my_data_rows)
+
+# Allow end user to add fruit to list
+add_my_fruit = st.text_input('What fruit would you like to add?','Jackfruit')
+st.write('Thanks for adding ', add_my_fruit)
+
+
